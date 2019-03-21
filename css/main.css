@@ -16,7 +16,7 @@ keyframes heartAnimate 50%,
 keyframes heartAnimate 70% {
   transform: scale(1.1);
 }
-#heart {
+heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
@@ -1979,7 +1979,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c754f4;
+  background: #ff413b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2511,13 +2511,6 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
-}
-.site-uv {
-  margin-right: 10px;
-}
-.site-uv::after {
-  content: "|";
-  padding-left: 10px;
 }
 .page-archive .archive-page-counter {
   position: relative;
